@@ -1072,7 +1072,7 @@
         const starPlayers = [
             // Místicos (100+)
             { id: 99, name: "Iberê Thenório", pos: "ATA", ovr: 102, vel: 99, dri: 99, chu: 99, pas: 99, def: 60, fin: 99, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEDsRbXecyBee_gPuVuJ326EW5goICJZ250Rxmt10oPdf44y5Srm-G828sbFlzh_2BWbhXLCIOSFnIO-759RpKdfwFa6NX3JZRlxCf4PHgA&s=10" },
-            { id: 100, name: "The World", pos: "MEI", ovr: 105, vel: 99, dri: 99, chu: 99, pas: 99, def: 99, fin: 99, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLt4XHXhznapb8SnpJr1DPdpA9PogfX19P5gA2AMqUQ&s=10" },
+            { id: 100, name: "The World", pos: "MEI", ovr: 105, vel: 199, dri: 99, chu: 199, pas: 99, def: 99, fin: 199, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLt4XHXhznapb8SnpJr1DPdpA9PogfX19P5gA2AMqUQ&s=10" },
             
             // Lendas (90-99)
             { id: 1, name: "Baianinho", pos: "ATA", ovr: 96, vel: 94, dri: 95, chu: 96, pas: 90, def: 40, fin: 98, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-zLbuUxWk12tZDpXaqinMm-8JSdL2dTIG0uCixQw3lw&s=10" },
@@ -1162,7 +1162,7 @@
             // Ouro especial: Home das invocação (potencial até 100~110)
             { id: 252, name: "Home das invocação", pos: "MEI", ovr: 84, vel: 78, dri: 82, chu: 75, pas: 88, def: 70, fin: 72, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbr_xQNUmef38QsDzP1ULTSqlDBWsPNg7twZ-SQ0BPpQ&s=10", specialPotential: true },
             // Divino (somente via Ultra + condição)
-            { id: 253, name: "Mahoraga", pos: "VOL", ovr: 210, vel: 1999, dri: 205, chu: 2205, pas: 1900, def: 1909, fin: 1900, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDTFCBZ_QUOzaVZsd2NTrjBrQejkJbmVODD2d0oYrpw&s=10", noTrain: true, isDivine: true }
+            { id: 253, name: "Mahoraga", pos: "VOL", ovr: 210, vel: 199, dri: 2005, chu: 2205, pas: 1900, def: 1909, fin: 1900, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDTFCBZ_QUOzaVZsd2NTrjBrQejkJbmVODD2d0oYrpw&s=10", noTrain: true, isDivine: true }
         ].map(p => {
             // Potencial base só como fallback — o real é rolado em rollPotential() a cada cópia/pack
             return { ...p, potential: 0, maxPotential: 0 };
