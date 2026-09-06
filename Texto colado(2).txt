@@ -1162,7 +1162,7 @@
             // Ouro especial: Home das invocação (potencial até 100~110)
             { id: 252, name: "Home das invocação", pos: "MEI", ovr: 84, vel: 78, dri: 82, chu: 75, pas: 88, def: 70, fin: 72, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbr_xQNUmef38QsDzP1ULTSqlDBWsPNg7twZ-SQ0BPpQ&s=10", specialPotential: true },
             // Divino (somente via Ultra + condição)
-            { id: 253, name: "Mahoraga", pos: "VOL", ovr: 210, vel: 199, dri: 25, chu: 225, pas: 190, def: 199, fin: 190, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDTFCBZ_QUOzaVZsd2NTrjBrQejkJbmVODD2d0oYrpw&s=10", noTrain: true, isDivine: true }
+            { id: 253, name: "Mahoraga", pos: "VOL", ovr: 210, vel: 1999, dri: 205, chu: 2205, pas: 1900, def: 1909, fin: 1900, photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDTFCBZ_QUOzaVZsd2NTrjBrQejkJbmVODD2d0oYrpw&s=10", noTrain: true, isDivine: true }
         ].map(p => {
             // Potencial base só como fallback — o real é rolado em rollPotential() a cada cópia/pack
             return { ...p, potential: 0, maxPotential: 0 };
