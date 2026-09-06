@@ -711,7 +711,7 @@
             </div>
             <div class="resources">
                 <div class="res-pill fans">📣 <span id="fanCount">120</span> Fãs</div>
-                <div class="res-pill coins">🪙 <span id="coinCount">200000</span></div>
+                <div class="res-pill coins">🪙 <span id="coinCount">200</span></div>
                 <div id="sponsorDisplay" class="sponsor-tag" style="display: none;">Patrocínio Ativo</div>
             </div>
         </div>
@@ -1205,9 +1205,9 @@
             return p;
         }
 
-        let startingXI = [], bench = [], coins = 200, playerIdCounter = 0;
+        let startingXI = [], bench = [], coins = 200000, playerIdCounter = 0;
         // Anti-cheat: valores "legítimos" — se alguém mudar coins/fans no console, volta ao esperado
-        let safeCoins = 200;
+        let safeCoins = 200000;
         let safeFans = 120;
 
         function addCoins(delta) {
